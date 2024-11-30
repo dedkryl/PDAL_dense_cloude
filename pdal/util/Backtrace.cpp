@@ -46,6 +46,7 @@ namespace pdal
 PDAL_EXPORT std::vector<std::string> Utils::backtrace()
 {
     std::vector<std::string> lines;
+    /*
     BacktraceEntries entries = backtraceImpl();
 
     // Remove the frame for the unwinding itself.
@@ -84,6 +85,7 @@ PDAL_EXPORT std::vector<std::string> Utils::backtrace()
         line += " + " + std::to_string(be.offset);
         lines.push_back(line);
     }
+    */
     return lines;
 }
 

@@ -15,3 +15,5 @@ PDAL
 [![Conda](https://github.com/PDAL/PDAL/workflows/Conda/badge.svg)](https://github.com/PDAL/PDAL/actions?query=workflow%3AConda)
 
 See https://pdal.io/ for more info
+
+In this fork only 'Back trace' feature has been removed.

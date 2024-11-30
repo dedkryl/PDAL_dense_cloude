@@ -39,11 +39,12 @@ namespace pdal
 
 namespace Utils
 {
-
+/*
 BacktraceEntries backtraceImpl()
 {
     return BacktraceEntries();
 }
+*/
 
 } // namespace Utils
 

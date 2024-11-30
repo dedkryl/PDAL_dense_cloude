@@ -98,8 +98,8 @@ set(PDAL_BUILD_TYPE ${CMAKE_BUILD_TYPE})
 #  Dependencies.
 #------------------------------------------------------------------------------
 
-include(${PDAL_CMAKE_DIR}/backtrace.cmake)
-include(${PDAL_CMAKE_DIR}/proj.cmake)
+#include(${PDAL_CMAKE_DIR}/backtrace.cmake)
+#include(${PDAL_CMAKE_DIR}/proj.cmake)
 include(${PDAL_CMAKE_DIR}/gdal.cmake)
 include(${PDAL_CMAKE_DIR}/geotiff.cmake)  # Optional (not really)
 include(${PDAL_CMAKE_DIR}/threads.cmake)

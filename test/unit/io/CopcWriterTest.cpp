@@ -313,6 +313,7 @@ TEST(CopcWriterTest, extradim)
                 (r == (layout->findDim("R") != Dimension::Id::Unknown)) &&
                 (s == (layout->findDim("S") != Dimension::Id::Unknown)));
         FileUtils::deleteFile(outFilename);
+        return true;
     };
 
 

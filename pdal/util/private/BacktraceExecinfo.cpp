@@ -39,7 +39,7 @@
 
 namespace pdal
 {
-
+/*
 Utils::BacktraceEntries Utils::backtraceImpl()
 {
     Utils::BacktraceEntries entries;
@@ -66,5 +66,6 @@ Utils::BacktraceEntries Utils::backtraceImpl()
     }
     return entries;
 }
+*/
 
 } // namespace pdal

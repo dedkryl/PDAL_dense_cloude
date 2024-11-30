@@ -53,10 +53,10 @@ struct BacktraceEntry
     std::string symname;
     int offset;
 };
-
+/*
 using BacktraceEntries = std::deque<BacktraceEntry>;
 BacktraceEntries backtraceImpl();
-
+*/
 } // namespace Utils
 
 } // namespace pdal
