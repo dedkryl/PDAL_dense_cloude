@@ -5,6 +5,8 @@
 
 cmake_minimum_required(VERSION 3.13)
 
+
+
 project(PDAL VERSION 2.8.0 LANGUAGES CXX C)
 string(TOLOWER ${PROJECT_NAME} PROJECT_NAME_LOWER)
 

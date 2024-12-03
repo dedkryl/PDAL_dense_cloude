@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 
+set(CMAKE_BUILD_WITH_INSTALL_RPATH ON)
+
 if (STANDALONE)
     project(pdal-pgpointcloud)
     include("${CMAKE_CURRENT_LIST_DIR}/../../cmake/standalone.cmake" )

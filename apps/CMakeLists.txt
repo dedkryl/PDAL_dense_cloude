@@ -10,12 +10,14 @@ cmake_minimum_required(VERSION 3.5)
 #------------------------------------------------------------------------------
 
 set(PDAL_APP pdal)
+set(CMAKE_BUILD_WITH_INSTALL_RPATH ON)
 
 if (APPLE AND PDAL_BUNDLE)
     add_executable(${PDAL_APP} MACOSX_BUNDLE pdal.cpp)
 else (APPLE AND PDAL_BUNDLE)
     add_executable(${PDAL_APP} pdal.cpp)
 endif(APPLE AND PDAL_BUNDLE)
+
 pdal_target_compile_settings(${PDAL_APP})
 target_link_libraries(${PDAL_APP}
     PRIVATE
